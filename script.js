@@ -41,7 +41,7 @@
     envelope.classList.add('opened');
 
     // Reveal main content after the card animation settles,
-    // then pause ~6 seconds so the user can admire the card.
+    // then pause ~4 seconds so the user can admire the card.
     // Only auto-scroll if user is still viewing the hero area.
     setTimeout(function () {
       mainContent.classList.remove('hidden');
@@ -55,7 +55,7 @@
           heroSection.style.minHeight = '80vh';
           document.getElementById('couple').scrollIntoView({ behavior: 'smooth' });
         }
-      }, 5000);
+      }, 2600);
     }, 1500);
   }
 
