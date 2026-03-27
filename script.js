@@ -55,7 +55,7 @@
           heroSection.style.minHeight = '80vh';
           document.getElementById('couple').scrollIntoView({ behavior: 'smooth' });
         }
-      }, 2600);
+      }, 3000);
     }, 1500);
   }
 
